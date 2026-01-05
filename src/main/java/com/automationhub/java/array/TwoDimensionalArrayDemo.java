@@ -3,6 +3,20 @@ package com.automationhub.java.array;
 public class TwoDimensionalArrayDemo {
 
     public static void main(String[] args) {
+
+        int [][] Weeks = {{10,15,90},
+                {20,25,80},
+                {30,35,70},
+        {40,45,60}};
+
+        for(int i=0; i< Weeks.length;i++){
+            for(int j=0;j<Weeks[i].length;j++){
+
+                System.out.println(Weeks[i][j]);
+            }
+            System.out.println();
+        }
+
         int[][] marks = {{80, 75, 90},
                 {85, 88, 92},
                 {70, 65, 78},
