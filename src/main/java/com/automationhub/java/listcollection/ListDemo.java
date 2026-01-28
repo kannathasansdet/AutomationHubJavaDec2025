@@ -1,7 +1,7 @@
 package com.automationhub.java.listcollection;
-import java.util.LinkedList;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public class ListDemo {
@@ -11,6 +11,8 @@ public class ListDemo {
 
         // 1. ArrayList
         List<String> fruitsList = new ArrayList<String>();
+
+        List<Character> arrayList1 = new ArrayList<Character>();
 
         fruitsList.add("Apple");
         fruitsList.add("Banana");
@@ -36,12 +38,6 @@ public class ListDemo {
 
         // Removing elements
         fruitsList.remove("Apple"); // removes first occurrence
-        System.out.println("After removal: " + fruitsList);
-
-        // Using index elements
-
-        fruitsList.remove(2);
-
         System.out.println("After removal: " + fruitsList);
 
         // Checking existence
